@@ -22,4 +22,4 @@ CID=$(docker run -d langrisha/learning-threejs)
 echo "Server running on http://$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' ${CID}):8080"
 ```
 
-The server runs on port `8080`. R
+The server runs on port `8080`.
