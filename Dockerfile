@@ -1,4 +1,4 @@
-FROM node:6.9.1
+FROM node:24.21.0
 MAINTAINER Filip Dupanović <filip.dupanovic@gmail.com>
 
 RUN \
